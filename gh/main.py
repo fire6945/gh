@@ -1,16 +1,3 @@
-"""
-A GitHub info website
-
-Author:
-@FirestarDev (jdl-joseph on GitHub)
-
-Usage:
-For user info: /user_query?user={username}
-For organization info: /org_query?org={organization}
-
-Don't get lost! :3
-"""
-
 from flask import Flask, request, render_template
 from pages import writeUserPage
 from github import gh
